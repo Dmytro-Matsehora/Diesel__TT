@@ -54,7 +54,7 @@ body {
   margin-right: 20px;
 }
 
-@media screen and (width < 620px) {
+@media screen and (max-width: 620px) {
   .mobile-hide {
     display: none
   }
@@ -70,7 +70,7 @@ body {
   }
 }
 
-@media screen and (width < 361px) {
+@media screen and (max-width: 361px) {
   .mobile-small-hide {
     display: none
   }
