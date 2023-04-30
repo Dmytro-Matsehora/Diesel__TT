@@ -1,0 +1,77 @@
+#spinner {
+  display: none;
+  animation: spinner 1s infinite linear;
+  color: #337ab7;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#success-api, 
+#error-api {
+  display: none;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+body {
+  margin: 10px 0;
+  background-color: #0a1a28;
+}
+
+.panel {
+  background-color: teal;
+  border: teal;
+}
+
+.modal-content {
+  background-color: teal;
+  color: white;
+}
+
+.modal-body {
+  background-color: white;
+  color: black;
+}
+
+.panel-body {
+  color: white;
+}
+
+.button-size {
+  display: none;
+}
+
+.generate-button {
+  margin-right: 20px;
+}
+
+@media screen and (width < 620px) {
+  .mobile-hide {
+    display: none
+  }
+
+  .panel-footer {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-size {
+    display: block;
+  }
+}
+
+@media screen and (width < 361px) {
+  .mobile-small-hide {
+    display: none
+  }
+}
