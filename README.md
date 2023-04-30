@@ -1,6 +1,6 @@
 # Diesel
 
-**Demo link: [DEMO](https://dmytro-matsehora.github.io/Diesel/)**
+**Demo link: [DEMO](https://dmytro-matsehora.github.io/Diesel__TT/)**
 
 Technology stack: **HTML, CSS, Bootstrap 3, jQuery, Ajax**
 
